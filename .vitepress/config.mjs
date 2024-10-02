@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "/docs-ling/",
   title: "一个普普通通的文档",
   description: "A VitePress Site",
   head: [["link", { rel: "icon", href: "/logo.png" }]],
@@ -78,8 +79,6 @@ export default defineConfig({
          ]
       }
     ],
-
-    base: "/docs-ling/",
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/fl12352/' }
